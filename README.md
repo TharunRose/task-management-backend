@@ -23,12 +23,13 @@
 **create your .env file**
 
  .env Example
-   PORT=5000
+PORT=5000
+JWT_SECRET= your_secret_key
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=yourpassword
+DB_PASS=root
 DB_NAME=task_management
-JWT_SECRET=supersecretkey
+
 
   **Use This Query Database Setup**
 
